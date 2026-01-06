@@ -2867,7 +2867,7 @@ localApp.post('/api/theft/config/:id', async (req, res) => {
 });
 
 // 啟動伺服器
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);
         
     setTimeout(() => {
