@@ -1521,56 +1521,48 @@ function loadSettings() {
         if (fs.existsSync(SETTINGS_CONFIG_PATH)) {
             const rawData = fs.readFileSync(SETTINGS_CONFIG_PATH);
             appSettings = JSON.parse(rawData);
-            
-            // 舊格式轉換
             if (appSettings.lineUserId && !appSettings.lineUserIds) {
-                console.log('[Config] 偵測到舊版設定檔，正在轉換為新格式...');
                 appSettings.lineUserIds = [appSettings.lineUserId];
                 delete appSettings.lineUserId;
                 saveSettings();
             }            
-
-            if (appSettings.isCloudSyncEnabled === undefined) {
-                appSettings.isCloudSyncEnabled = false;
-            }
+            if (appSettings.isCloudSyncEnabled === undefined) appSettings.isCloudSyncEnabled = false;
 
             console.log('[Config] 成功從 settings_config.json 載入設定。');
         } else {
-            // 建立預設檔案
-            const defaultSettings = {
+            appSettings = {
                 isNetworkEnabled: false,
                 lineAccessToken: '',
                 lineChannelSecret: '',
                 lineUserIds: [],
                 isCloudSyncEnabled: false
             };
-            try {
-                fs.writeFileSync(SETTINGS_CONFIG_PATH, JSON.stringify(defaultSettings, null, 4));
-                console.log('[Config] settings_config.json 不存在，已建立預設檔案。');
-            } catch (e) {
-                console.log('[Config] 無法建立設定檔 (可能是唯讀環境)，將使用記憶體預設值。');
-            }
-            appSettings = defaultSettings;
+            console.log('[Config] 使用預設設定 (無本地檔案)。');
         }
-        
+
         if (process.env.LINE_CHANNEL_ACCESS_TOKEN) {
             appSettings.lineAccessToken = process.env.LINE_CHANNEL_ACCESS_TOKEN;
-            console.log('[Config] 使用環境變數載入 LINE Access Token');
         }
-
         if (process.env.LINE_CHANNEL_SECRET) {
             appSettings.lineChannelSecret = process.env.LINE_CHANNEL_SECRET;
-            console.log('[Config] 使用環境變數載入 LINE Channel Secret');
         }
 
+        if (process.env.LINE_USER_IDS) {
+            appSettings.lineUserIds = process.env.LINE_USER_IDS.split(',').map(id => id.trim());
+            console.log(`[Config] 從環境變數載入了 ${appSettings.lineUserIds.length} 個 LINE 使用者 ID`);
+        }        
+
+        if (process.env.SIMULATION_MODE === 'true') {
+             appSettings.isNetworkEnabled = false; 
+        }
 
     } catch (error) {
-        console.error('[Config] 載入設定失敗:', error);
+        console.error('[Config] 載入設定失敗，使用環境變數救援:', error);
         appSettings = { 
             isNetworkEnabled: false, 
-            lineAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || '',
-            lineChannelSecret: process.env.LINE_CHANNEL_SECRET || '',
-            lineUserIds: [], 
+            lineAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || '', 
+            lineChannelSecret: process.env.LINE_CHANNEL_SECRET || '', 
+            lineUserIds: process.env.LINE_USER_IDS ? process.env.LINE_USER_IDS.split(',') : [], 
             isCloudSyncEnabled: false 
         };
     }
