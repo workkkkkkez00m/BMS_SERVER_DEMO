@@ -90,8 +90,8 @@ const modbusPort = 502;
 const modbusSlaveId = 1;
 
 async function ensureModbusConnection() {
-    if (client.isOpen) {
-        return true; // 如果已連線，直接返回成功
+    if (process.env.SIMULATION_MODE === 'true') {broadcastCallback
+        return true; 
     }
     //console.log(`[Modbus Client] 連線已中斷，正在嘗試重新連接到 ${modbusHost}:${modbusPort}...`);
     try {
