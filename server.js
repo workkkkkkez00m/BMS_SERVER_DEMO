@@ -1522,12 +1522,12 @@ function loadSettings() {
             const rawData = fs.readFileSync(SETTINGS_CONFIG_PATH);
             appSettings = JSON.parse(rawData);
             
-            // 如果設定檔是舊格式 (有 lineUserId 但沒有 lineUserIds)，則自動轉換
+            // 舊格式轉換
             if (appSettings.lineUserId && !appSettings.lineUserIds) {
                 console.log('[Config] 偵測到舊版設定檔，正在轉換為新格式...');
-                appSettings.lineUserIds = [appSettings.lineUserId]; // 將舊 ID 放入新陣列
-                delete appSettings.lineUserId; // 刪除舊的 key
-                saveSettings(); // 將轉換後的新格式存檔
+                appSettings.lineUserIds = [appSettings.lineUserId];
+                delete appSettings.lineUserId;
+                saveSettings();
             }            
 
             if (appSettings.isCloudSyncEnabled === undefined) {
@@ -1536,7 +1536,7 @@ function loadSettings() {
 
             console.log('[Config] 成功從 settings_config.json 載入設定。');
         } else {
-            // 使用新的 lineUserIds 陣列作為預設值
+            // 建立預設檔案
             const defaultSettings = {
                 isNetworkEnabled: false,
                 lineAccessToken: '',
@@ -1544,17 +1544,32 @@ function loadSettings() {
                 lineUserIds: [],
                 isCloudSyncEnabled: false
             };
-            fs.writeFileSync(SETTINGS_CONFIG_PATH, JSON.stringify(defaultSettings, null, 4));
+            try {
+                fs.writeFileSync(SETTINGS_CONFIG_PATH, JSON.stringify(defaultSettings, null, 4));
+                console.log('[Config] settings_config.json 不存在，已建立預設檔案。');
+            } catch (e) {
+                console.log('[Config] 無法建立設定檔 (可能是唯讀環境)，將使用記憶體預設值。');
+            }
             appSettings = defaultSettings;
-            console.log('[Config] settings_config.json 不存在，已建立預設檔案。');
         }
+        
+        if (process.env.LINE_CHANNEL_ACCESS_TOKEN) {
+            appSettings.lineAccessToken = process.env.LINE_CHANNEL_ACCESS_TOKEN;
+            console.log('[Config] 使用環境變數載入 LINE Access Token');
+        }
+
+        if (process.env.LINE_CHANNEL_SECRET) {
+            appSettings.lineChannelSecret = process.env.LINE_CHANNEL_SECRET;
+            console.log('[Config] 使用環境變數載入 LINE Channel Secret');
+        }
+
+
     } catch (error) {
-        console.error('[Config] 載入 settings_config.json 失敗:', error);
-        // 錯誤時的預設值也更新
+        console.error('[Config] 載入設定失敗:', error);
         appSettings = { 
             isNetworkEnabled: false, 
-            lineAccessToken: '', 
-            lineChannelSecret: '', 
+            lineAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || '',
+            lineChannelSecret: process.env.LINE_CHANNEL_SECRET || '',
             lineUserIds: [], 
             isCloudSyncEnabled: false 
         };
