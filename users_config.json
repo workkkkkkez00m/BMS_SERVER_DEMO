@@ -1,0 +1,50 @@
+{
+    "1": {
+        "id": 1,
+        "username": "admin",
+        "password": "$2b$10$GD02q2fIksc05kGPJqonMO6DPMo2iMj8vR5i76aR3CtDV4BnunHfu",
+        "displayName": "系統管理員",
+        "role": "admin",
+        "permissions": [
+            "manage_users",
+            "elevator_control",
+            "view_history",
+            "change_settings"
+        ]
+    },
+    "1760581139747": {
+        "id": 1760581139747,
+        "username": "123",
+        "displayName": "123",
+        "password": "$2b$10$8unGCgrwYgHuID1JXOHpqu26r7m89jlOzPjaZDD5FFu/iFAqINbU.",
+        "role": "viewer",
+        "permissions": [
+            "view_history"
+        ],
+        "creationDate": "2025-10-16T02:18:59.747Z"
+    },
+    "1760581150424": {
+        "id": 1760581150424,
+        "username": "321",
+        "displayName": "321",
+        "password": "$2b$10$4bYWAv7rj.drLkYHth4Ql.IdG7F2gjqcrmVlme9OtKJI7K.AD1iaS",
+        "role": "custom",
+        "permissions": [
+            "manage_users",
+            "elevator_control",
+            "view_history"
+        ],
+        "creationDate": "2025-10-16T02:19:10.424Z"
+    },
+    "1760581165370": {
+        "id": 1760581165370,
+        "username": "1234",
+        "displayName": "1234",
+        "password": "$2b$10$mic3q3HBaAsugk5sYIDCpO2j1Gm5hdRCp9OdTf6Tyywh4cFAaAsWi",
+        "role": "viewer",
+        "permissions": [
+            "view_history"
+        ],
+        "creationDate": "2025-10-16T02:19:25.370Z"
+    }
+}

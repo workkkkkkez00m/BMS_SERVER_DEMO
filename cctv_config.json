@@ -1,0 +1,3347 @@
+{
+    "1f": [
+        {
+            "id": "1F-C01-A",
+            "name": "1F-C01-A",
+            "locationName": "A棟_1F_機車道入口",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C02-A",
+            "name": "1F-C02-A",
+            "locationName": "A棟_1F_機車道出口",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C03-A",
+            "name": "1F-C03-A",
+            "locationName": "A棟_1F_圖書館北側-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C04-A",
+            "name": "1F-C04-A",
+            "locationName": "A棟_1F_廳梯走廊",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C05-A",
+            "name": "1F-C05-A",
+            "locationName": "A棟_1F_排煙室A",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C06-A",
+            "name": "1F-C06-A",
+            "locationName": "A棟_1F_圖書館南側-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C07-A",
+            "name": "1F-C07-A",
+            "locationName": "A棟_1F_圖書館南側-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C08-A",
+            "name": "1F-C08-A",
+            "locationName": "A棟_1F_圖書館南側-3",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C09-A",
+            "name": "1F-C09-A",
+            "locationName": "A棟_1F_圖書館南側-4",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C09-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C10-A",
+            "name": "1F-C10-A",
+            "locationName": "A棟_1F_戶外攝影機(西北側)-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C10-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C11-A",
+            "name": "1F-C11-A",
+            "locationName": "A棟_1F_戶外攝影機(西南側)-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C11-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C12-A",
+            "name": "1F-C12-A",
+            "locationName": "A棟_1F_戶外攝影機(南側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C12-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C13-A",
+            "name": "1F-C13-A",
+            "locationName": "A棟_1F_戶外攝影機(東側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C13-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C14-A",
+            "name": "1F-C14-A",
+            "locationName": "A棟_1F_戶外攝影機(東北側)-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C14-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C15-A",
+            "name": "1F-C15-A",
+            "locationName": "A棟_1F_住宅電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C15-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C16-A",
+            "name": "1F-C16-A",
+            "locationName": "A棟_1F_圖書館電梯(NO.11)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C16-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C17-A",
+            "name": "1F-C17-A",
+            "locationName": "A棟_電梯(NO.1)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C17-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C18-A",
+            "name": "1F-C18-A",
+            "locationName": "A棟_電梯(NO.2)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C18-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C19-A",
+            "name": "1F-C19-A",
+            "locationName": "A棟_電梯(NO.3)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C19-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C20-A",
+            "name": "1F-C20-A",
+            "locationName": "A棟_電梯(NO.4)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C20-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C21-A",
+            "name": "1F-C21-A",
+            "locationName": "A棟_電梯(NO.5)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C21-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C22-A",
+            "name": "1F-C22-A",
+            "locationName": "A棟_1F_住宅大廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C22-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C48-A",
+            "name": "1F-C48-A",
+            "locationName": "A棟_1F_戶外攝影機(西北側)-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C48-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C49-A",
+            "name": "1F-C49-A",
+            "locationName": "A棟_1F_戶外攝影機(西南側)-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C49-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C50-A",
+            "name": "1F-C50-A",
+            "locationName": "A棟_1F_戶外攝影機(東南側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C50-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C51-A",
+            "name": "1F-C51-A",
+            "locationName": "A棟_1F_戶外攝影機(東北側)-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C51-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C52-A",
+            "name": "1F-C52-A",
+            "locationName": "A棟_防災中心",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C52-A/stream.m3u8"
+        },
+        {
+            "id": "1F-C23-B",
+            "name": "1F-C23-B",
+            "locationName": "B棟_1F_幼兒園教室-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C23-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C24-B",
+            "name": "1F-C24-B",
+            "locationName": "B棟_1F_幼兒園教室-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C24-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C25-B",
+            "name": "1F-C25-B",
+            "locationName": "B棟_1F_廳梯走廊",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C25-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C26-B",
+            "name": "1F-C26-B",
+            "locationName": "B棟_1F_幼兒園室內活動空間-16",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C26-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C27-B",
+            "name": "1F-C27-B",
+            "locationName": "B棟_1F_幼兒園戶外活動空間-1 ",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C27-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C28-B",
+            "name": "1F-C28-B",
+            "locationName": "B棟_1F_幼兒園戶外活動空間-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C28-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C29-B",
+            "name": "1F-C29-B",
+            "locationName": "B棟_1F_幼兒園入口區",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C29-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C30-B",
+            "name": "1F-C30-B",
+            "locationName": "B棟_1F_幼兒園親子圖書館",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C30-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C31-B",
+            "name": "1F-C31-B",
+            "locationName": "B棟_1F_幼兒園大門廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C31-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C32-B",
+            "name": "1F-C32-B",
+            "locationName": "B棟_1F_幼兒園走廊-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C32-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C33-B",
+            "name": "1F-C33-B",
+            "locationName": "B棟_1F_幼兒園走廊-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C33-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C34-B",
+            "name": "1F-C34-B",
+            "locationName": "B棟_1F_排煙室D",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C34-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C35-B",
+            "name": "1F-C35-B",
+            "locationName": "B棟_1F_幼兒園走廊-3",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C35-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C36-B",
+            "name": "1F-C36-B",
+            "locationName": "B棟_1F_幼兒園走廊-4",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C36-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C37-B",
+            "name": "1F-C37-B",
+            "locationName": "B棟_1F_幼兒園教室",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C37-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C38-B",
+            "name": "1F-C38-B",
+            "locationName": "B棟_戶外攝影機(西南側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C38-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C39-B",
+            "name": "1F-C39-B",
+            "locationName": "B棟_戶外攝影機(北側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C39-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C40-B",
+            "name": "1F-C40-B",
+            "locationName": "B棟_戶外攝影機(東側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C40-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C41-B",
+            "name": "1F-C41-B",
+            "locationName": "B棟_1F_住宅電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C41-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C42-B",
+            "name": "1F-C42-B",
+            "locationName": "B棟_1F_電梯(NO.10)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C42-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C43-B",
+            "name": "1F-C43-B",
+            "locationName": "B棟_1F_電梯(NO.08)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C43-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C44-B",
+            "name": "1F-C44-B",
+            "locationName": "B棟_1F_電梯(NO.09)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C44-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C45-B",
+            "name": "1F-C45-B",
+            "locationName": "B棟_1F_電梯(NO.06)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C45-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C46-B",
+            "name": "1F-C46-B",
+            "locationName": "B棟_1F_電梯(NO.07)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C46-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C47-B",
+            "name": "1F-C47-B",
+            "locationName": "B棟_1F_住宅大廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C47-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C53-B",
+            "name": "1F-C53-B",
+            "locationName": "B棟_1F_戶外攝影機(西北側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C53-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C54-B",
+            "name": "1F-C54-B",
+            "locationName": "B棟_1F_戶外攝影機(西南側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C54-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C55-B",
+            "name": "1F-C55-B",
+            "locationName": "B棟_1F_戶外攝影機(南側)-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C55-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C56-B",
+            "name": "1F-C56-B",
+            "locationName": "B棟_1F_戶外攝影機(南側)-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C56-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C57-B",
+            "name": "1F-C57-B",
+            "locationName": "B棟_1F_戶外攝影機(東南側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C57-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C58-B",
+            "name": "1F-C58-B",
+            "locationName": "B棟_1F_戶外攝影機(東北側)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C58-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C59-B",
+            "name": "1F-C59-B",
+            "locationName": "B棟_1F_汽車道口",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C59-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C60-B",
+            "name": "1F-C60-B",
+            "locationName": "B棟_1F_戶外攝影機(北側)-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C60-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C61-B",
+            "name": "1F-C61-B",
+            "locationName": "B棟_1F_多功能會議室-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C61-B/stream.m3u8"
+        },
+        {
+            "id": "1F-C62-B",
+            "name": "1F-C62-B",
+            "locationName": "B棟_1F_多功能會議室-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/1F-C62-B/stream.m3u8"
+        }
+    ],
+    "2f": [
+        {
+            "id": "2F-C01-A",
+            "name": "2F-C01-A",
+            "locationName": "A棟_2F_圖書館室內空間-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C02-A",
+            "name": "2F-C02-A",
+            "locationName": "A棟_2F_圖書館室內空間-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C03-A",
+            "name": "2F-C03-A",
+            "locationName": "A棟_2F_圖書館室內空間-3",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C04-A",
+            "name": "2F-C04-A",
+            "locationName": "A棟_2F_圖書館室內空間-4",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C05-A",
+            "name": "2F-C05-A",
+            "locationName": "A棟_2F_圖書館室內空間-5",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C06-A",
+            "name": "2F-C06-A",
+            "locationName": "A棟_2F_圖書館室內空間-6",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C07-A",
+            "name": "2F-C07-A",
+            "locationName": "A棟_2F_圖書館室內空間-7",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C08-A",
+            "name": "2F-C08-A",
+            "locationName": "A棟_2F_圖書館室內空間-8",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C09-A",
+            "name": "2F-C09-A",
+            "locationName": "A棟_2F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C09-A/stream.m3u8"
+        },
+        {
+            "id": "2F-C10-B",
+            "name": "2F-C10-B",
+            "locationName": "B棟_2F_幼兒園教室-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C11-B",
+            "name": "2F-C11-B",
+            "locationName": "B棟_2F_幼兒園教室-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C12-B",
+            "name": "2F-C12-B",
+            "locationName": "B棟_2F_幼兒園教室-3",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C13-B",
+            "name": "2F-C13-B",
+            "locationName": "B棟_2F_幼兒園會議室",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C14-B",
+            "name": "2F-C14-B",
+            "locationName": "B棟_2F_幼兒園教室-4",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C15-B",
+            "name": "2F-C15-B",
+            "locationName": "B棟_2F_幼兒園教室-5",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C15-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C16-B",
+            "name": "2F-C16-B",
+            "locationName": "B棟_2F_幼兒園室內活動空間-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C16-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C17-B",
+            "name": "2F-C17-B",
+            "locationName": "B棟_2F_幼兒園室內活動空間-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C17-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C18-B",
+            "name": "2F-C18-B",
+            "locationName": "B棟_2F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C18-B/stream.m3u8"
+        },
+        {
+            "id": "2F-C19-B",
+            "name": "2F-C19-B",
+            "locationName": "二樓攝影機19",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@169.254.111.231:8554/live",
+            "floor": "2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/2F-C19-B/stream.m3u8"
+        }
+    ],
+    "3f": [
+        {
+            "id": "3F-C01-A",
+            "name": "3F-C01-A",
+            "locationName": "A棟_3F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C02-A",
+            "name": "3F-C02-A",
+            "locationName": "A棟_3F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C03-A",
+            "name": "3F-C03-A",
+            "locationName": "A棟_3F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C04-A",
+            "name": "3F-C04-A",
+            "locationName": "A棟_3F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C05-A",
+            "name": "3F-C05-A",
+            "locationName": "A棟_3F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C06-A",
+            "name": "3F-C06-A",
+            "locationName": "A棟_3F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C07-A",
+            "name": "3F-C07-A",
+            "locationName": "A棟_3F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "3F-C08-B",
+            "name": "3F-C08-B",
+            "locationName": "B棟_3F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C09-B",
+            "name": "3F-C09-B",
+            "locationName": "B棟_3F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C10-B",
+            "name": "3F-C10-B",
+            "locationName": "B棟_3F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C11-B",
+            "name": "3F-C11-B",
+            "locationName": "B棟_3F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C12-B",
+            "name": "3F-C12-B",
+            "locationName": "B棟_3F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C13-B",
+            "name": "3F-C13-B",
+            "locationName": "B棟_3F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "3F-C14-B",
+            "name": "3F-C14-B",
+            "locationName": "B棟_3F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/3F-C14-B/stream.m3u8"
+        }
+    ],
+    "4f": [
+        {
+            "id": "4F-C01-A",
+            "name": "4F-C01-A",
+            "locationName": "A棟_4F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C02-A",
+            "name": "4F-C02-A",
+            "locationName": "A棟_4F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C03-A",
+            "name": "4F-C03-A",
+            "locationName": "A棟_4F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C04-A",
+            "name": "4F-C04-A",
+            "locationName": "A棟_4F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C05-A",
+            "name": "4F-C05-A",
+            "locationName": "A棟_4F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C06-A",
+            "name": "4F-C06-A",
+            "locationName": "A棟_4F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C07-A",
+            "name": "4F-C07-A",
+            "locationName": "A棟_4F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "4F-C08-B",
+            "name": "4F-C08-B",
+            "locationName": "B棟_4F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C09-B",
+            "name": "4F-C09-B",
+            "locationName": "B棟_4F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C10-B",
+            "name": "4F-C10-B",
+            "locationName": "B棟_4F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C11-B",
+            "name": "4F-C11-B",
+            "locationName": "B棟_4F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C12-B",
+            "name": "4F-C12-B",
+            "locationName": "B棟_4F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C13-B",
+            "name": "4F-C13-B",
+            "locationName": "B棟_4F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "4F-C14-B",
+            "name": "4F-C14-B",
+            "locationName": "B棟_4F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "4f",
+            "hlsUrl": "http://localhost:3000/hls_streams/4F-C14-B/stream.m3u8"
+        }
+    ],
+    "5f": [
+        {
+            "id": "5F-C01-A",
+            "name": "5F-C01-A",
+            "locationName": "A棟_5F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C02-A",
+            "name": "5F-C02-A",
+            "locationName": "A棟_5F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C03-A",
+            "name": "5F-C03-A",
+            "locationName": "A棟_5F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C04-A",
+            "name": "5F-C04-A",
+            "locationName": "A棟_5F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C05-A",
+            "name": "5F-C05-A",
+            "locationName": "A棟_5F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C06-A",
+            "name": "5F-C06-A",
+            "locationName": "A棟_5F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C07-A",
+            "name": "5F-C07-A",
+            "locationName": "A棟_5F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "5F-C08-B",
+            "name": "5F-C08-B",
+            "locationName": "B棟_5F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C09-B",
+            "name": "5F-C09-B",
+            "locationName": "B棟_5F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C10-B",
+            "name": "5F-C10-B",
+            "locationName": "B棟_5F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C11-B",
+            "name": "5F-C11-B",
+            "locationName": "B棟_5F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C12-B",
+            "name": "5F-C12-B",
+            "locationName": "B棟_5F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C13-B",
+            "name": "5F-C13-B",
+            "locationName": "B棟_5F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "5F-C14-B",
+            "name": "5F-C14-B",
+            "locationName": "B棟_5F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "5f",
+            "hlsUrl": "http://localhost:3000/hls_streams/5F-C14-B/stream.m3u8"
+        }
+    ],
+    "6f": [
+        {
+            "id": "6F-C01-A",
+            "name": "6F-C01-A",
+            "locationName": "A棟_6F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C02-A",
+            "name": "6F-C02-A",
+            "locationName": "A棟_6F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C03-A",
+            "name": "6F-C03-A",
+            "locationName": "A棟_6F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C04-A",
+            "name": "6F-C04-A",
+            "locationName": "A棟_6F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C05-A",
+            "name": "6F-C05-A",
+            "locationName": "A棟_6F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C06-A",
+            "name": "6F-C06-A",
+            "locationName": "A棟_6F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C07-A",
+            "name": "6F-C07-A",
+            "locationName": "A棟_6F_走廊(A16戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C08-A",
+            "name": "6F-C08-A",
+            "locationName": "A棟_6F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "6F-C09-B",
+            "name": "6F-C09-B",
+            "locationName": "B棟_6F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C10-B",
+            "name": "6F-C10-B",
+            "locationName": "B棟_6F_走廊(B16戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C11-B",
+            "name": "6F-C11-B",
+            "locationName": "B棟_6F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C12-B",
+            "name": "6F-C12-B",
+            "locationName": "B棟_6F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C13-B",
+            "name": "6F-C13-B",
+            "locationName": "B棟_6F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C14-B",
+            "name": "6F-C14-B",
+            "locationName": "B棟_6F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C15-B",
+            "name": "6F-C15-B",
+            "locationName": "B棟_6F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C15-B/stream.m3u8"
+        },
+        {
+            "id": "6F-C16-B",
+            "name": "6F-C16-B",
+            "locationName": "B棟_6F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "6f",
+            "hlsUrl": "http://localhost:3000/hls_streams/6F-C16-B/stream.m3u8"
+        }
+    ],
+    "7f": [
+        {
+            "id": "7F-C01-A",
+            "name": "7F-C01-A",
+            "locationName": "A棟_7F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C02-A",
+            "name": "7F-C02-A",
+            "locationName": "A棟_7F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C03-A",
+            "name": "7F-C03-A",
+            "locationName": "A棟_7F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C04-A",
+            "name": "7F-C04-A",
+            "locationName": "A棟_7F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C05-A",
+            "name": "7F-C05-A",
+            "locationName": "A棟_7F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C06-A",
+            "name": "7F-C06-A",
+            "locationName": "A棟_7F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C07-A",
+            "name": "7F-C07-A",
+            "locationName": "A棟_7F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "7F-C08-B",
+            "name": "7F-C08-B",
+            "locationName": "B棟_7F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C09-B",
+            "name": "7F-C09-B",
+            "locationName": "B棟_7F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C10-B",
+            "name": "7F-C10-B",
+            "locationName": "B棟_7F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C11-B",
+            "name": "7F-C11-B",
+            "locationName": "B棟_7F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C12-B",
+            "name": "7F-C12-B",
+            "locationName": "B棟_7F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C13-B",
+            "name": "7F-C13-B",
+            "locationName": "B棟_7F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "7F-C14-B",
+            "name": "7F-C14-B",
+            "locationName": "B棟_7F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "7f",
+            "hlsUrl": "http://localhost:3000/hls_streams/7F-C14-B/stream.m3u8"
+        }
+    ],
+    "8f": [
+        {
+            "id": "8F-C01-A",
+            "name": "8F-C01-A",
+            "locationName": "A棟_8F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C02-A",
+            "name": "8F-C02-A",
+            "locationName": "A棟_8F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C03-A",
+            "name": "8F-C03-A",
+            "locationName": "A棟_8F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C04-A",
+            "name": "8F-C04-A",
+            "locationName": "A棟_8F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C05-A",
+            "name": "8F-C05-A",
+            "locationName": "A棟_8F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C06-A",
+            "name": "8F-C06-A",
+            "locationName": "A棟_8F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C07-A",
+            "name": "8F-C07-A",
+            "locationName": "A棟_8F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "8F-C08-B",
+            "name": "8F-C08-B",
+            "locationName": "B棟_8F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C09-B",
+            "name": "8F-C09-B",
+            "locationName": "B棟_8F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C10-B",
+            "name": "8F-C10-B",
+            "locationName": "B棟_8F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C11-B",
+            "name": "8F-C11-B",
+            "locationName": "B棟_8F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C12-B",
+            "name": "8F-C12-B",
+            "locationName": "B棟_8F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C13-B",
+            "name": "8F-C13-B",
+            "locationName": "B棟_8F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "8F-C14-B",
+            "name": "8F-C14-B",
+            "locationName": "B棟_8F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "8f",
+            "hlsUrl": "http://localhost:3000/hls_streams/8F-C14-B/stream.m3u8"
+        }
+    ],
+    "9f": [
+        {
+            "id": "9F-C01-A",
+            "name": "9F-C01-A",
+            "locationName": "A棟_9F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C02-A",
+            "name": "9F-C02-A",
+            "locationName": "A棟_9F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C03-A",
+            "name": "9F-C03-A",
+            "locationName": "A棟_9F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C04-A",
+            "name": "9F-C04-A",
+            "locationName": "A棟_9F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C05-A",
+            "name": "9F-C05-A",
+            "locationName": "A棟_9F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C06-A",
+            "name": "9F-C06-A",
+            "locationName": "A棟_9F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C07-A",
+            "name": "9F-C07-A",
+            "locationName": "A棟_9F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C08-A",
+            "name": "9F-C08-A",
+            "locationName": "A棟_9F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "9F-C09-B",
+            "name": "9F-C09-B",
+            "locationName": "B棟_9F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C10-B",
+            "name": "9F-C10-B",
+            "locationName": "B棟_9F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C11-B",
+            "name": "9F-C11-B",
+            "locationName": "B棟_9F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C12-B",
+            "name": "9F-C12-B",
+            "locationName": "B棟_9F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C13-B",
+            "name": "9F-C13-B",
+            "locationName": "B棟_9F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C14-B",
+            "name": "9F-C14-B",
+            "locationName": "B棟_9F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "9F-C15-B",
+            "name": "9F-C15-B",
+            "locationName": "B棟_9F_走廊(B7戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "9f",
+            "hlsUrl": "http://localhost:3000/hls_streams/9F-C15-B/stream.m3u8"
+        }
+    ],
+    "10f": [
+        {
+            "id": "10F-C01-A",
+            "name": "10F-C01-A",
+            "locationName": "A棟_10F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C02-A",
+            "name": "10F-C02-A",
+            "locationName": "A棟_10F_走廊(A6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C03-A",
+            "name": "10F-C03-A",
+            "locationName": "A棟_10F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C04-A",
+            "name": "10F-C04-A",
+            "locationName": "十A棟_10F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C05-A",
+            "name": "10F-C05-A",
+            "locationName": "A棟_10F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C06-A",
+            "name": "10F-C06-A",
+            "locationName": "A棟_10F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C07-A",
+            "name": "10F-C07-A",
+            "locationName": "A棟_10F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "10F-C08-B",
+            "name": "10F-C08-B",
+            "locationName": "B棟_10F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C09-B",
+            "name": "10F-C09-B",
+            "locationName": "B棟_10F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C10-B",
+            "name": "10F-C10-B",
+            "locationName": "B棟_10F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C11-B",
+            "name": "10F-C11-B",
+            "locationName": "B棟_10F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C12-B",
+            "name": "10F-C12-B",
+            "locationName": "B棟_10F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C13-B",
+            "name": "10F-C13-B",
+            "locationName": "B棟_10F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "10F-C14-B",
+            "name": "10F-C14-B",
+            "locationName": "十B棟_10F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "10f",
+            "hlsUrl": "http://localhost:3000/hls_streams/10F-C14-B/stream.m3u8"
+        }
+    ],
+    "11f": [
+        {
+            "id": "11F-C01-A",
+            "name": "11F-C01-A",
+            "locationName": "A棟_11F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C02-A",
+            "name": "11F-C02-A",
+            "locationName": "A棟_11F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C03-A",
+            "name": "11F-C03-A",
+            "locationName": "A棟_11F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C04-A",
+            "name": "11F-C04-A",
+            "locationName": "A棟_11F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C05-A",
+            "name": "11F-C05-A",
+            "locationName": "A棟_11F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C06-A",
+            "name": "11F-C06-A",
+            "locationName": "A棟_11F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C07-A",
+            "name": "11F-C07-A",
+            "locationName": "A棟_11F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "11F-C08-B",
+            "name": "11F-C08-B",
+            "locationName": "B棟_11F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C09-B",
+            "name": "11F-C09-B",
+            "locationName": "B棟_11F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C10-B",
+            "name": "11F-C10-B",
+            "locationName": "B棟_11F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C11-B",
+            "name": "11F-C11-B",
+            "locationName": "B棟_11F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C12-B",
+            "name": "11F-C12-B",
+            "locationName": "B棟_11F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C13-B",
+            "name": "11F-C13-B",
+            "locationName": "B棟_11F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "11F-C14-B",
+            "name": "11F-C14-B",
+            "locationName": "B棟_11F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "11f",
+            "hlsUrl": "http://localhost:3000/hls_streams/11F-C14-B/stream.m3u8"
+        }
+    ],
+    "12f": [
+        {
+            "id": "12F-C01-A",
+            "name": "12F-C01-A",
+            "locationName": "A棟_12F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C02-A",
+            "name": "12F-C02-A",
+            "locationName": "A棟_12F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C03-A",
+            "name": "12F-C03-A",
+            "locationName": "A棟_12F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C04-A",
+            "name": "12F-C04-A",
+            "locationName": "A棟_12F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C05-A",
+            "name": "12F-C05-A",
+            "locationName": "A棟_12F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C06-A",
+            "name": "12F-C06-A",
+            "locationName": "A棟_12F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C07-A",
+            "name": "12F-C07-A",
+            "locationName": "A棟_12F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "12F-C08-B",
+            "name": "12F-C08-B",
+            "locationName": "B棟_12F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C09-B",
+            "name": "12F-C09-B",
+            "locationName": "B棟_12F_走廊(B16戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C10-B",
+            "name": "12F-C10-B",
+            "locationName": "B棟_12F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C11-B",
+            "name": "12F-C11-B",
+            "locationName": "B棟_12F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C12-B",
+            "name": "12F-C12-B",
+            "locationName": "B棟_12F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C13-B",
+            "name": "12F-C13-B",
+            "locationName": "B棟_12F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "12F-C14-B",
+            "name": "12F-C14-B",
+            "locationName": "B棟_12F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "12f",
+            "hlsUrl": "http://localhost:3000/hls_streams/12F-C14-B/stream.m3u8"
+        }
+    ],
+    "13f": [
+        {
+            "id": "13F-C01-A",
+            "name": "13F-C01-A",
+            "locationName": "A棟_13F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C02-A",
+            "name": "13F-C02-A",
+            "locationName": "A棟_13F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C03-A",
+            "name": "13F-C03-A",
+            "locationName": "A棟_13F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C04-A",
+            "name": "13F-C04-A",
+            "locationName": "A棟_13F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C05-A",
+            "name": "13F-C05-A",
+            "locationName": "A棟_13F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C06-A",
+            "name": "13F-C06-A",
+            "locationName": "A棟_13F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C07-A",
+            "name": "13F-C07-A",
+            "locationName": "A棟_13F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C08-A",
+            "name": "13F-C08-A",
+            "locationName": "A棟_13F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "13F-C09-B",
+            "name": "13F-C09-B",
+            "locationName": "B棟_13F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C10-B",
+            "name": "13F-C10-B",
+            "locationName": "B棟_13F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C11-B",
+            "name": "13F-C11-B",
+            "locationName": "B棟_13F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C12-B",
+            "name": "13F-C12-B",
+            "locationName": "B棟_13F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C13-B",
+            "name": "13F-C13-B",
+            "locationName": "B棟_13F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C14-B",
+            "name": "13F-C14-B",
+            "locationName": "B棟_13F_走廊(管理委員會空間前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C15-B",
+            "name": "13F-C15-B",
+            "locationName": "B棟_13F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C15-B/stream.m3u8"
+        },
+        {
+            "id": "13F-C16-B",
+            "name": "13F-C16-B",
+            "locationName": "B棟_13F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "13f",
+            "hlsUrl": "http://localhost:3000/hls_streams/13F-C16-B/stream.m3u8"
+        }
+    ],
+    "14f": [
+        {
+            "id": "14F-C01-A",
+            "name": "14F-C01-A",
+            "locationName": "A棟_14F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C02-A",
+            "name": "14F-C02-A",
+            "locationName": "A棟_14F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C03-A",
+            "name": "14F-C03-A",
+            "locationName": "A棟_14F_管委會空間前",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C04-A",
+            "name": "14F-C04-A",
+            "locationName": "A棟_14F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C05-A",
+            "name": "14F-C05-A",
+            "locationName": "A棟_14F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C06-A",
+            "name": "14F-C06-A",
+            "locationName": "A棟_14F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C07-A",
+            "name": "14F-C07-A",
+            "locationName": "A棟_14F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "14F-C08-B",
+            "name": "14F-C08-B",
+            "locationName": "B棟_14F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C09-B",
+            "name": "14F-C09-B",
+            "locationName": "B棟_14F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C10-B",
+            "name": "14F-C10-B",
+            "locationName": "B棟_14F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C11-B",
+            "name": "14F-C11-B",
+            "locationName": "B棟_14F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C12-B",
+            "name": "14F-C12-B",
+            "locationName": "B棟_14F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C13-B",
+            "name": "14F-C13-B",
+            "locationName": "B棟_14F_走廊(中繼水箱機房前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "14F-C14-B",
+            "name": "14F-C14-B",
+            "locationName": "B棟_14F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "14f",
+            "hlsUrl": "http://localhost:3000/hls_streams/14F-C14-B/stream.m3u8"
+        }
+    ],
+    "15f": [
+        {
+            "id": "15F-C01-A",
+            "name": "15F-C01-A",
+            "locationName": "A棟_15F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C02-A",
+            "name": "15F-C02-A",
+            "locationName": "A棟_15F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C03-A",
+            "name": "15F-C03-A",
+            "locationName": "A棟_15F_走廊",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C04-A",
+            "name": "15F-C04-A",
+            "locationName": "A棟_15F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C05-A",
+            "name": "15F-C05-A",
+            "locationName": "A棟_15F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C06-A",
+            "name": "15F-C06-A",
+            "locationName": "A棟_15F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C07-A",
+            "name": "15F-C07-A",
+            "locationName": "A棟_15F_走廊(A15戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C08-A",
+            "name": "15F-C08-A",
+            "locationName": "A棟_15F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "15F-C09-B",
+            "name": "15F-C09-B",
+            "locationName": "B棟_15F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C10-B",
+            "name": "15F-C10-B",
+            "locationName": "B棟_15F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C11-B",
+            "name": "15F-C11-B",
+            "locationName": "B棟_15F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C12-B",
+            "name": "15F-C12-B",
+            "locationName": "B棟_15F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C13-B",
+            "name": "15F-C13-B",
+            "locationName": "B棟_15F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C14-B",
+            "name": "15F-C14-B",
+            "locationName": "B棟_15F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C15-B",
+            "name": "15F-C15-B",
+            "locationName": "B棟_15F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C15-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C16-B",
+            "name": "15F-C16-B",
+            "locationName": "B棟_15F_北側管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C16-B/stream.m3u8"
+        },
+        {
+            "id": "15F-C17-B",
+            "name": "15F-C17-B",
+            "locationName": "B棟_15F_南側管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "15f",
+            "hlsUrl": "http://localhost:3000/hls_streams/15F-C17-B/stream.m3u8"
+        }
+    ],
+    "16f": [
+        {
+            "id": "16F-C01-A",
+            "name": "16F-C01-A",
+            "locationName": "A棟_16F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C02-A",
+            "name": "16F-C02-A",
+            "locationName": "A棟_16F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C03-A",
+            "name": "16F-C03-A",
+            "locationName": "A棟_16F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C04-A",
+            "name": "16F-C04-A",
+            "locationName": "A棟_16F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C05-A",
+            "name": "16F-C05-A",
+            "locationName": "A棟_16F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C06-A",
+            "name": "16F-C06-A",
+            "locationName": "A棟_16F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C07-A",
+            "name": "16F-C07-A",
+            "locationName": "A棟_16F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C08-A",
+            "name": "16F-C08-A",
+            "locationName": "A棟_16F_管委會空間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "16F-C09-B",
+            "name": "16F-C09-B",
+            "locationName": "B棟_16F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C10-B",
+            "name": "16F-C10-B",
+            "locationName": "B棟_16F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C11-B",
+            "name": "16F-C11-B",
+            "locationName": "B棟_16F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C12-B",
+            "name": "16F-C12-B",
+            "locationName": "B棟_16F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C13-B",
+            "name": "16F-C13-B",
+            "locationName": "B棟_16F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C14-B",
+            "name": "16F-C14-B",
+            "locationName": "B棟_16F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C14-B/stream.m3u8"
+        },
+        {
+            "id": "16F-C15-B",
+            "name": "16F-C15-B",
+            "locationName": "B棟_16F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "16f",
+            "hlsUrl": "http://localhost:3000/hls_streams/16F-C15-B/stream.m3u8"
+        }
+    ],
+    "17f": [
+        {
+            "id": "17F-C01-A",
+            "name": "17F-C01-A",
+            "locationName": "A棟_17F_梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C02-A",
+            "name": "17F-C02-A",
+            "locationName": "A棟_17F_走廊(A6戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C03-A",
+            "name": "17F-C03-A",
+            "locationName": "A棟_17F_走廊(A2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C04-A",
+            "name": "17F-C04-A",
+            "locationName": "A棟_17F_走廊(A1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C05-A",
+            "name": "17F-C05-A",
+            "locationName": "A棟_17F_走廊(A10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C06-A",
+            "name": "17F-C06-A",
+            "locationName": "A棟_17F_走廊(A11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C07-A",
+            "name": "17F-C07-A",
+            "locationName": "A棟_17F_走廊(A15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "17F-C08-B",
+            "name": "17F-C08-B",
+            "locationName": "B棟_17F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C09-B",
+            "name": "17F-C09-B",
+            "locationName": "B棟_17F_走廊(B15前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C10-B",
+            "name": "17F-C10-B",
+            "locationName": "B棟_17F_走廊(B11戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C11-B",
+            "name": "17F-C11-B",
+            "locationName": "B棟_17F_走廊(B10戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C12-B",
+            "name": "17F-C12-B",
+            "locationName": "B棟_17F_走廊(B1戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C13-B",
+            "name": "17F-C13-B",
+            "locationName": "B棟_17F_走廊(B2戶前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "17F-C14-B",
+            "name": "17F-C14-B",
+            "locationName": "B棟_17F_走廊(B6前)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "17f",
+            "hlsUrl": "http://localhost:3000/hls_streams/17F-C14-B/stream.m3u8"
+        }
+    ],
+    "r1f": [
+        {
+            "id": "R1F-C01-A",
+            "name": "R1F-C01-A",
+            "locationName": "A棟_RF_西側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C02-A",
+            "name": "R1F-C02-A",
+            "locationName": "A棟_RF_北側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C03-A",
+            "name": "R1F-C03-A",
+            "locationName": "A棟_RF_東側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C04-A",
+            "name": "R1F-C04-A",
+            "locationName": "A棟_RF_南側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C05-A",
+            "name": "R1F-C05-A",
+            "locationName": "A棟_RF_南側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C06-A",
+            "name": "R1F-C06-A",
+            "locationName": "A棟_RF_東側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C07-B",
+            "name": "R1F-C07-B",
+            "locationName": "B棟_RF_西側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C07-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C08-B",
+            "name": "R1F-C08-B",
+            "locationName": "B棟_RF_北側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C09-B",
+            "name": "R1F-C09-B",
+            "locationName": "B棟_RF_北側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C10-B",
+            "name": "R1F-C10-B",
+            "locationName": "B棟_RF_東側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C11-B",
+            "name": "R1F-C11-B",
+            "locationName": "B棟_RF_南側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C12-B",
+            "name": "R1F-C12-B",
+            "locationName": "B棟_RF_南側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C13-A",
+            "name": "R1F-C13-A",
+            "locationName": "A棟_RF_東側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C13-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C14-A",
+            "name": "R1F-C14-A",
+            "locationName": "A棟_RF_西側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C14-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C15-A",
+            "name": "R1F-C15-A",
+            "locationName": "RA棟_RF_電梯廳北側",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C15-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C16-A",
+            "name": "R1F-C16-A",
+            "locationName": "A棟_RF_電梯廳南側",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C16-A/stream.m3u8"
+        },
+        {
+            "id": "R1F-C17-B",
+            "name": "R1F-C17-B",
+            "locationName": "B棟_RF_東側戶外景觀-1",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C17-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C18-B",
+            "name": "R1F-C18-B",
+            "locationName": "B棟_RF_西側戶外景觀-2",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C18-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C19-B",
+            "name": "R1F-C19-B",
+            "locationName": "B棟_RF_電梯廳北側",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C19-B/stream.m3u8"
+        },
+        {
+            "id": "R1F-C20-B",
+            "name": "R1F-C20-B",
+            "locationName": "B棟_RF_電梯廳南側",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "r1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/R1F-C20-B/stream.m3u8"
+        }
+    ],
+    "b1f": [
+        {
+            "id": "B1F-C01-A",
+            "name": "B1F-C01-A",
+            "locationName": "B1F_423號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C02-A",
+            "name": "B1F-C02-A",
+            "locationName": "B1F_444號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C03-A",
+            "name": "B1F-C03-A",
+            "locationName": "A棟_B1F_變電室",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C04-A",
+            "name": "B1F-C04-A",
+            "locationName": "B1F_62號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C05-A",
+            "name": "B1F-C05-A",
+            "locationName": "B1F_61號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C06-A",
+            "name": "B1F-C06-A",
+            "locationName": "B1F_3號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C07-A",
+            "name": "B1F-C07-A",
+            "locationName": "A棟_B1F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C08-A",
+            "name": "B1F-C08-A",
+            "locationName": "B1F_362、363號車位中間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C08-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C09-A",
+            "name": "B1F-C09-A",
+            "locationName": "B1F_129、130號車位中間",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C09-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C10-B",
+            "name": "B1F-C10-B",
+            "locationName": "B棟_B1F_台電配電場所",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C11-B",
+            "name": "B1F-C11-B",
+            "locationName": "B棟_B1F_緊急發電機室",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C12-B",
+            "name": "B1F-C12-B",
+            "locationName": "B棟_B1F_機房",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C13-A",
+            "name": "B1F-C13-A",
+            "locationName": "B棟_B1F_排氣機房",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C13-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C14-A",
+            "name": "B1F-C14-A",
+            "locationName": "B1F_307號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C14-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C15-A",
+            "name": "B1F-C15-A",
+            "locationName": "B1F_水箱機房",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C15-A/stream.m3u8"
+        },
+        {
+            "id": "B1F-C16-B",
+            "name": "B1F-C16-B",
+            "locationName": "B1F_垃圾儲藏室",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C16-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C17-B",
+            "name": "B1F-C17-B",
+            "locationName": "B1F_284號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C17-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C18-B",
+            "name": "B1F-C18-B",
+            "locationName": "B1F_垃圾儲藏室(外)",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C18-B/stream.m3u8"
+        },
+        {
+            "id": "B1F-C19-B",
+            "name": "B1F-C19-B",
+            "locationName": "B棟_B1F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b1f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B1F-C19-B/stream.m3u8"
+        }
+    ],
+    "b2f": [
+        {
+            "id": "B2F-C01-A",
+            "name": "B2F-C01-A",
+            "locationName": "B2F_243號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C02-A",
+            "name": "B2F-C02-A",
+            "locationName": "B2F_256號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C03-A",
+            "name": "B2F-C03-A",
+            "locationName": "B2F_261號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C04-A",
+            "name": "B2F-C04-A",
+            "locationName": "B2F_164號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C05-A",
+            "name": "B2F-C05-A",
+            "locationName": "B2F_156號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C06-A",
+            "name": "B2F-C06-A",
+            "locationName": "B2F_145號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C07-A",
+            "name": "B2F-C07-A",
+            "locationName": "A棟_B2F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "B2F-C08-B",
+            "name": "B2F-C08-B",
+            "locationName": "B2F_270號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C09-B",
+            "name": "B2F-C09-B",
+            "locationName": "B2F_278號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C10-B",
+            "name": "B2F-C10-B",
+            "locationName": "B2F_241號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C11-B",
+            "name": "B2F-C11-B",
+            "locationName": "B2F_189號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C12-B",
+            "name": "B2F-C12-B",
+            "locationName": "B2F_178號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C13-B",
+            "name": "B2F-C13-B",
+            "locationName": "B2F_173號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "B2F-C14-B",
+            "name": "B2F-C14-B",
+            "locationName": "B棟_B2F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b2f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B2F-C14-B/stream.m3u8"
+        }
+    ],
+    "b3f": [
+        {
+            "id": "B3F-C01-A",
+            "name": "B3F-C01-A",
+            "locationName": "B3F_102號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C01-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C02-A",
+            "name": "B3F-C02-A",
+            "locationName": "B3F_115號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C02-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C03-A",
+            "name": "B3F-C03-A",
+            "locationName": "B3F_120號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C03-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C04-A",
+            "name": "B3F-C04-A",
+            "locationName": "B3F_20號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C04-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C05-A",
+            "name": "B3F-C05-A",
+            "locationName": "B3F_12號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C05-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C06-A",
+            "name": "B3F-C06-A",
+            "locationName": "B3F_1號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C06-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C07-A",
+            "name": "B3F-C07-A",
+            "locationName": "A棟_B3F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C07-A/stream.m3u8"
+        },
+        {
+            "id": "B3F-C08-B",
+            "name": "B3F-C08-B",
+            "locationName": "B3F_129號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C08-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C09-B",
+            "name": "B3F-C09-B",
+            "locationName": "B3F_137號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C09-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C10-B",
+            "name": "B3F-C10-B",
+            "locationName": "B棟_B3F_雨水機房",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C10-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C11-B",
+            "name": "B3F-C11-B",
+            "locationName": "B3F_45號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C11-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C12-B",
+            "name": "B3F-C12-B",
+            "locationName": "B3F_34號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C12-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C13-B",
+            "name": "B3F-C13-B",
+            "locationName": "B3F_29號車位",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C13-B/stream.m3u8"
+        },
+        {
+            "id": "B3F-C14-B",
+            "name": "B3F-C14-B",
+            "locationName": "B棟_B3F_電梯廳",
+            "status": "offline",
+            "streamUrl": "rtsp://admin:admin@10.230.16.74:8554/live",
+            "floor": "b3f",
+            "hlsUrl": "http://localhost:3000/hls_streams/B3F-C14-B/stream.m3u8"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "1f": {
+        "ip": "192.168.1.102",
+        "port": 502,
+        "slaveId": 1,
+        "readFunction": "readDiscreteInputs"
+    },
+    "3f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "3f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "4f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "4f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "6f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "6f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "7f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "7f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "8f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "8f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "9f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "9f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "10f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "10f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "11f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "11f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "12f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "12f-B": {
+        "ip": "",
+        "port": "",
+        "slaveId": "",
+        "readFunction": "readDiscreteInputs"
+    },
+    "13f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "13f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "14f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "14f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "15f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "15f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "16-A": {
+        "ip": "127.0.0.2",
+        "port": 80,
+        "slaveId": 1,
+        "readFunction": "readDiscreteInputs"
+    },
+    "16f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "17f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "17f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "r1f-A": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "r1f-B": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "5f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    },
+    "5f-B": {
+        "ip": "127.0.0.2",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readDiscreteInputs"
+    },
+    "16f-A": {
+        "ip": "127.0.0.1",
+        "port": "80",
+        "slaveId": "1",
+        "readFunction": "readCoils"
+    }
+}

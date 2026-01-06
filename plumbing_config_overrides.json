@@ -1,0 +1,87 @@
+{
+    "b3f": {
+        "ip": "127.0.0.1",
+        "port": 80,
+        "slaveId": 1,
+        "readType": "input",
+        "units": [
+            {
+                "id": "PUMP-B3-01",
+                "runAddr": 0,
+                "faultAddr": 1,
+                "controlAddr": 0,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-02",
+                "runAddr": 2,
+                "faultAddr": 3,
+                "controlAddr": 2,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-03",
+                "runAddr": 4,
+                "faultAddr": 5,
+                "controlAddr": 4,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-04",
+                "runAddr": 6,
+                "faultAddr": 7,
+                "controlAddr": 6,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-05",
+                "runAddr": 8,
+                "faultAddr": 9,
+                "controlAddr": 8,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-06",
+                "runAddr": 10,
+                "faultAddr": 11,
+                "controlAddr": 10,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-07",
+                "runAddr": 12,
+                "faultAddr": 13,
+                "controlAddr": 12,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-08",
+                "runAddr": 14,
+                "faultAddr": 15,
+                "controlAddr": 14,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-09",
+                "runAddr": 16,
+                "faultAddr": 17,
+                "controlAddr": 16,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-10",
+                "runAddr": 18,
+                "faultAddr": 19,
+                "controlAddr": 18,
+                "readType": "input"
+            },
+            {
+                "id": "PUMP-B3-11",
+                "runAddr": 20,
+                "faultAddr": 21,
+                "controlAddr": 20,
+                "readType": "input"
+            }
+        ]
+    }
+}

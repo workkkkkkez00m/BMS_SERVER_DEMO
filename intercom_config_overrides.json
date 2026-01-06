@@ -1,0 +1,21 @@
+{
+    "1f": {
+        "ip": "127.0.0.1",
+        "port": "502",
+        "slaveId": "1",
+        "units": [
+            {
+                "id": "VI-1F-01",
+                "streamUrl": "rtsp://admin:admin@168.254.48.251:8554/live"
+            },
+            {
+                "id": "VI-1F-02",
+                "streamUrl": "rtsp://admin:admin@169.254.48.251:8554/live"
+            },
+            {
+                "id": "VI-1F-03",
+                "streamUrl": "rtsp://admin:admin@169.254.48.251:8554/live"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "b1f": [
+        {
+            "name": "汽車柵欄機控制器",
+            "ip": "127.0.0.1",
+            "port": 502,
+            "slaveId": 1,
+            "units": [
+                {
+                    "id": "B_IN",
+                    "openAddr": 0,
+                    "closeAddr": 1,
+                    "faultAddr": 4,
+                    "locationName": "汽車入口柵欄"
+                },
+                {
+                    "id": "B_OUT",
+                    "openAddr": 2,
+                    "closeAddr": 3,
+                    "faultAddr": 5,
+                    "locationName": "汽車出口柵欄"
+                }
+            ]
+        },
+        {
+            "name": "機車柵欄機控制器",
+            "ip": "127.0.0.2",
+            "port": 502,
+            "slaveId": 1,
+            "units": [
+                {
+                    "id": "MB_IN",
+                    "openAddr": 0,
+                    "closeAddr": 1,
+                    "faultAddr": 4,
+                    "locationName": "機車入口柵欄"
+                },
+                {
+                    "id": "MB_OUT",
+                    "openAddr": 2,
+                    "closeAddr": 3,
+                    "faultAddr": 5,
+                    "locationName": "機車出口柵欄"
+                }
+            ]
+        }
+    ]
+}

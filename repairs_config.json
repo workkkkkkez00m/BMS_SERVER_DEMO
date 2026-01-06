@@ -1,0 +1,83 @@
+[
+    {
+        "id": "repair-1761201291516",
+        "timestamp": "2025-10-23T06:34:51.516Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "2F",
+        "description": "窗戶漏水",
+        "status": "處理中"
+    },
+    {
+        "id": "repair-1761201320243",
+        "timestamp": "2025-10-23T06:35:20.243Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "3F",
+        "description": "電燈不亮",
+        "status": "已完成"
+    },
+    {
+        "id": "repair-1761204127858",
+        "timestamp": "2025-10-23T07:22:07.858Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "電梯壞掉",
+        "status": "待處理"
+    },
+    {
+        "id": "repair-1761207074957",
+        "timestamp": "2025-10-23T08:11:14.957Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "xxxxx",
+        "status": "待處理"
+    },
+    {
+        "id": "repair-1761207078743",
+        "timestamp": "2025-10-23T08:11:18.743Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "yyyyy",
+        "status": "待處理"
+    },
+    {
+        "id": "repair-1761207802336",
+        "timestamp": "2025-10-23T08:23:22.336Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "eeeee",
+        "status": "待處理"
+    },
+    {
+        "id": "repair-1761207875315",
+        "timestamp": "2025-10-23T08:24:35.315Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "aaaaa",
+        "status": "已取消"
+    },
+    {
+        "id": "repair-1761207890085",
+        "timestamp": "2025-10-23T08:24:50.085Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "5F",
+        "description": "bbbbb",
+        "status": "已完成"
+    },
+    {
+        "id": "repair-1761620990898",
+        "timestamp": "2025-10-28T03:09:50.898Z",
+        "source": "LINE Bot",
+        "reporterId": "U8bcd995c13e468b7661233f52e4c8519",
+        "floor": "B1F",
+        "description": "DSADAS",
+        "status": "處理中"
+    }
+]
