@@ -1,0 +1,227 @@
+module.exports = {
+    // Modbus 連線設定
+    connection: {
+        ip: "127.0.0.1", 
+        port: 5080,
+        slaveId: 1,
+        timeout: 2000
+    },
+
+    // 輪詢週期 (毫秒)
+    pollingInterval: 3000, 
+    
+    devices: {
+        "1f": [
+            { 
+                id: "AC-1F-01", name: "PEY-SM30JA(L)-TH_1", locationName: "防災中心空調",
+                modbusAddress: 0,           // 開關
+                tempModbusAddress: 21,      // 室溫 (+21)
+                setTempModbusAddress: 42,   // 設溫 (+42)
+                modeModbusAddress: 63,      // 模式 (+63)
+                fanModbusAddress: 84,       // 風速 (+84)
+                swingModbusAddress: 105,    // 上下風向 (+105)
+                swingHModbusAddress: 126    // 左右風向 (+126)
+            },
+            { 
+                id: "AC-1F-02", name: "PEY-SM30JA(L)-TH002_1", locationName: "辦公室空調",
+                modbusAddress: 1, 
+                tempModbusAddress: 22, 
+                setTempModbusAddress: 43, 
+                modeModbusAddress: 64, 
+                fanModbusAddress: 85, 
+                swingModbusAddress: 106, 
+                swingHModbusAddress: 127
+            },
+            { 
+                id: "AC-1F-03", name: "PEY-SM30JA(L)-TH001_1", locationName: "門廳空調",
+                modbusAddress: 2, 
+                tempModbusAddress: 23, 
+                setTempModbusAddress: 44, 
+                modeModbusAddress: 65, 
+                fanModbusAddress: 86, 
+                swingModbusAddress: 107, 
+                swingHModbusAddress: 128
+            },
+            { 
+                id: "AC-1F-04", name: "PEY-SM30JA(L)-TH003_1", locationName: "閱覽室空調1",
+                modbusAddress: 3, 
+                tempModbusAddress: 24, 
+                setTempModbusAddress: 45, 
+                modeModbusAddress: 66, 
+                fanModbusAddress: 87, 
+                swingModbusAddress: 108, 
+                swingHModbusAddress: 129
+            },
+            { 
+                id: "AC-1F-05", name: "PEY-SM30JA(L)-TH004_1", locationName: "閱覽室空調2",
+                modbusAddress: 4, 
+                tempModbusAddress: 25, 
+                setTempModbusAddress: 46, 
+                modeModbusAddress: 67, 
+                fanModbusAddress: 88, 
+                swingModbusAddress: 109, 
+                swingHModbusAddress: 130
+            },
+            { 
+                id: "AC-1F-06", name: "PEY-SM30JA(L)-TH005_1", locationName: "閱覽室空調3",
+                modbusAddress: 5, 
+                tempModbusAddress: 26, 
+                setTempModbusAddress: 47, 
+                modeModbusAddress: 68, 
+                fanModbusAddress: 89, 
+                swingModbusAddress: 110, 
+                swingHModbusAddress: 131
+            },
+            { 
+                id: "AC-1F-07", name: "PEY-SM30JA(L)-TH006_1", locationName: "閱覽室空調4",
+                modbusAddress: 6, 
+                tempModbusAddress: 27, 
+                setTempModbusAddress: 48, 
+                modeModbusAddress: 69, 
+                fanModbusAddress: 90, 
+                swingModbusAddress: 111, 
+                swingHModbusAddress: 132
+            },
+            { 
+                id: "AC-1F-08", name: "PEY-SM30JA(L)-TH007_1", locationName: "閱覽室空調5",
+                modbusAddress: 7, 
+                tempModbusAddress: 28, 
+                setTempModbusAddress: 49, 
+                modeModbusAddress: 70, 
+                fanModbusAddress: 91, 
+                swingModbusAddress: 112, 
+                swingHModbusAddress: 133
+            },
+            { 
+                id: "AC-1F-09", name: "PEY-SM30JA(L)-TH008_1", locationName: "閱覽室空調6",
+                modbusAddress: 8, 
+                tempModbusAddress: 29, 
+                setTempModbusAddress: 50, 
+                modeModbusAddress: 71, 
+                fanModbusAddress: 92, 
+                swingModbusAddress: 113, 
+                swingHModbusAddress: 134
+            },
+            { 
+                id: "AC-1F-10", name: "PEY-SM30JA(L)-TH009_1", locationName: "閱覽室空調7",
+                modbusAddress: 9, 
+                tempModbusAddress: 30, 
+                setTempModbusAddress: 51, 
+                modeModbusAddress: 72, 
+                fanModbusAddress: 93, 
+                swingModbusAddress: 114, 
+                swingHModbusAddress: 135
+            },
+            { 
+                id: "AC-1F-11", name: "PEY-SM30JA(L)-TH010_1", locationName: "閱覽室空調8",
+                modbusAddress: 10, 
+                tempModbusAddress: 31, 
+                setTempModbusAddress: 52, 
+                modeModbusAddress: 73, 
+                fanModbusAddress: 94, 
+                swingModbusAddress: 115, 
+                swingHModbusAddress: 136
+            },
+            { 
+                id: "AC-1F-12", name: "PEY-SM30JA(L)-TH011_1", locationName: "閱覽室空調9",
+                modbusAddress: 11, 
+                tempModbusAddress: 32, 
+                setTempModbusAddress: 53, 
+                modeModbusAddress: 74, 
+                fanModbusAddress: 95, 
+                swingModbusAddress: 116, 
+                swingHModbusAddress: 137
+            },
+            { 
+                id: "AC-1F-13", name: "PEY-SM30JA(L)-TH012_1", locationName: "閱覽室空調10",
+                modbusAddress: 12, 
+                tempModbusAddress: 33, 
+                setTempModbusAddress: 54, 
+                modeModbusAddress: 75, 
+                fanModbusAddress: 96, 
+                swingModbusAddress: 117, 
+                swingHModbusAddress: 138
+            },
+            { 
+                id: "AC-1F-14", name: "PEY-SM30JA(L)-TH013_1", locationName: "閱覽室空調11",
+                modbusAddress: 13, 
+                tempModbusAddress: 34, 
+                setTempModbusAddress: 55, 
+                modeModbusAddress: 76, 
+                fanModbusAddress: 97, 
+                swingModbusAddress: 118, 
+                swingHModbusAddress: 139
+            },
+            { 
+                id: "AC-1F-15", name: "PEY-SM30JA(L)-TH014_1", locationName: "閱覽室空調12",
+                modbusAddress: 14, 
+                tempModbusAddress: 35, 
+                setTempModbusAddress: 56, 
+                modeModbusAddress: 77, 
+                fanModbusAddress: 98, 
+                swingModbusAddress: 119, 
+                swingHModbusAddress: 140
+            },
+            { 
+                id: "AC-1F-16", name: "PEY-SM30JA(L)-TH015_1", locationName: "閱覽室空調13",
+                modbusAddress: 15, 
+                tempModbusAddress: 36, 
+                setTempModbusAddress: 57, 
+                modeModbusAddress: 78, 
+                fanModbusAddress: 99, 
+                swingModbusAddress: 120, 
+                swingHModbusAddress: 141
+            },
+            { 
+                id: "AC-1F-17", name: "PEY-SM30JA(L)-TH016_1", locationName: "店鋪空調1",
+                modbusAddress: 16, 
+                tempModbusAddress: 37, 
+                setTempModbusAddress: 58, 
+                modeModbusAddress: 79, 
+                fanModbusAddress: 100, 
+                swingModbusAddress: 121, 
+                swingHModbusAddress: 142
+            },
+            { 
+                id: "AC-1F-18", name: "PEY-SM30JA(L)-TH017_1", locationName: "店鋪空調2",
+                modbusAddress: 17, 
+                tempModbusAddress: 38, 
+                setTempModbusAddress: 59, 
+                modeModbusAddress: 80, 
+                fanModbusAddress: 101, 
+                swingModbusAddress: 122, 
+                swingHModbusAddress: 143
+            },
+            { 
+                id: "AC-1F-19", name: "PEY-SM30JA(L)-TH018_1", locationName: "店鋪空調3",
+                modbusAddress: 18, 
+                tempModbusAddress: 39, 
+                setTempModbusAddress: 60, 
+                modeModbusAddress: 81, 
+                fanModbusAddress: 102, 
+                swingModbusAddress: 123, 
+                swingHModbusAddress: 144
+            },
+            { 
+                id: "AC-1F-20", name: "PEY-SM30JA(L)-TH019_1", locationName: "店鋪空調4",
+                modbusAddress: 19, 
+                tempModbusAddress: 40, 
+                setTempModbusAddress: 61, 
+                modeModbusAddress: 82, 
+                fanModbusAddress: 103, 
+                swingModbusAddress: 124, 
+                swingHModbusAddress: 145
+            },
+            { 
+                id: "AC-1F-21", name: "PEY-SM30JA(L)-TH020_1", locationName: "店鋪空調5",
+                modbusAddress: 20, 
+                tempModbusAddress: 41, 
+                setTempModbusAddress: 62, 
+                modeModbusAddress: 83, 
+                fanModbusAddress: 104, 
+                swingModbusAddress: 125, 
+                swingHModbusAddress: 146
+            }
+        ]
+    }
+};

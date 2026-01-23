@@ -20,9 +20,11 @@ const intercomDriver = require('./intercomDriver');
 const barrierDriver = require('./barrierDriver');
 const theftpreventionDriver = require('./theftpreventionDriver');
 const plumbingDriver = require('./plumbingDriver');
+const accessDriver = require('./accessControlDriver');
+const acDriver = require('./acDriver'); 
 
 const localApp = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const HLS_DIR = path.join(os.tmpdir(), 'bms_hls_streams');
 
 const CONFIG_PATH = path.join(__dirname, 'cctv_config.json');
@@ -35,7 +37,6 @@ const SETTINGS_CONFIG_PATH = path.join(__dirname, 'settings_config.json');
 let appSettings = {};
 let notificationState = {};
 
-//
 const REPAIRS_CONFIG_PATH = path.join(__dirname, 'repairs_config.json');
 let repairsData = [];
 const CLOUD_SERVER_URL = 'https://repair-relay-server.onrender.com';
@@ -59,7 +60,6 @@ function broadcast(data) {
         }
     });
 }
-    
 //console.log(`[HLS] 影像串流檔案將儲存在: ${HLS_DIR}`);
 
 try {
@@ -84,14 +84,14 @@ localApp.use(express.json());
 localApp.use('/hls_streams', express.static(HLS_DIR));
 
 // ★ Modbus 用戶端
-const client = new ModbusRTU();
+/*const client = new ModbusRTU();
 const modbusHost = "192.168.41.223";
 const modbusPort = 502;
 const modbusSlaveId = 1;
 
 async function ensureModbusConnection() {
-    if (process.env.SIMULATION_MODE === 'true') {
-        return true; 
+    if (client.isOpen) {
+        return true; // 如果已連線，直接返回成功
     }
     //console.log(`[Modbus Client] 連線已中斷，正在嘗試重新連接到 ${modbusHost}:${modbusPort}...`);
     try {
@@ -108,7 +108,7 @@ async function ensureModbusConnection() {
     }
 }
 // ★ 伺服器啟動時，進行第一次連線
-ensureModbusConnection();
+//ensureModbusConnection();*/
 
 
 // 能源數據結構
@@ -556,7 +556,7 @@ setInterval(() => {
             if (elevator.secondsCounter >= 60) {
                 elevator.runTime += 1;
                 elevator.secondsCounter -= 60;
-                console.log(`電梯 ${elevator.name} 運轉時間更新: ${elevator.runTime} 分鐘`);
+                //console.log(`電梯 ${elevator.name} 運轉時間更新: ${elevator.runTime} 分鐘`);
             }
         }
 
@@ -749,67 +749,6 @@ function generateElevatorMonthlyReport(year, month, elevatorId) {
     
     return { dailySummaries, eventLogs };
 }
-
-// ★★★ 空調控制系統數據  ★★★
-const acData = {
-    "1f": [
-        { id: "AC-1F-01", name: "PEY-SM30JA(L)-TH_1", modbusAddress: 0, locationName: "防災中心空調", status: "未知", mode: "送風", setTemperature: 25, currentTemperature: 26, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-02", name: "PEY-SM30JA(L)-TH002_1", modbusAddress: 1, locationName: "辦公室空調", status: "未知", mode: "冷氣", setTemperature: 24, currentTemperature: 28, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "停止"  },
-        { id: "AC-1F-03", name: "PEY-SM30JA(L)-TH001_1", modbusAddress: 2, locationName: "門廳空調", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-04", name: "PEY-SM30JA(L)-TH003_1", modbusAddress: 3, locationName: "閱覽室空調1", status: "未知", mode: "送風", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-05", name: "PEY-SM30JA(L)-TH004_1", modbusAddress: 4, locationName: "閱覽室空調2", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-06", name: "PEY-SM30JA(L)-TH005_1", modbusAddress: 5, locationName: "閱覽室空調3", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-07", name: "PEY-SM30JA(L)-TH006_1", modbusAddress: 6, locationName: "閱覽室空調4", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-08", name: "PEY-SM30JA(L)-TH007_1", modbusAddress: 7, locationName: "閱覽室空調5", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-09", name: "PEY-SM30JA(L)-TH008_1", modbusAddress: 8, locationName: "閱覽室空調6", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-10", name: "PEY-SM30JA(L)-TH009_1", modbusAddress: 9, locationName: "閱覽室空調7", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-11", name: "PEY-SM30JA(L)-TH010_1", modbusAddress: 10, locationName: "閱覽室空調8", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-12", name: "PEY-SM30JA(L)-TH011_1", modbusAddress: 11, locationName: "閱覽室空調9", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-13", name: "PEY-SM30JA(L)-TH012_1", modbusAddress: 12, locationName: "閱覽室空調10", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-14", name: "PEY-SM30JA(L)-TH013_1", modbusAddress: 13, locationName: "閱覽室空調11", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-15", name: "PEY-SM30JA(L)-TH014_1", modbusAddress: 14, locationName: "閱覽室空調12", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-16", name: "PEY-SM30JA(L)-TH015_1", modbusAddress: 15, locationName: "閱覽室空調13", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-17", name: "PEY-SM30JA(L)-TH016_1", modbusAddress: 16, locationName: "店鋪空調1", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-18", name: "PEY-SM30JA(L)-TH017_1", modbusAddress: 17, locationName: "店鋪空調2", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-19", name: "PEY-SM30JA(L)-TH018_1", modbusAddress: 18, locationName: "店鋪空調3", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-20", name: "PEY-SM30JA(L)-TH019_1", modbusAddress: 19, locationName: "店鋪空調4", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-        { id: "AC-1F-21", name: "PEY-SM30JA(L)-TH020_1", modbusAddress: 20, locationName: "店鋪空調5", status: "未知", mode: "冷氣", setTemperature: 22, currentTemperature: 21, fanSpeed: "自動", verticalSwing: "auto", horizontalSwing: "auto", previousStatus: "運轉中"  },
-       
-    ],    
-};
-// ★★★ 模擬空調狀態隨機變化  ★★★
-const acModes = ["送風", "冷氣", "暖氣", "除濕"];
-setInterval(async () => {
-    try {
-        const isConnected = await ensureModbusConnection();
-        if (!isConnected) return;
-
-        for (const floor in acData) {
-            for (const unit of acData[floor]) {
-                // 1. 讀取開關狀態 (Holding Registers, 位址 0-20)
-                const statusResponse = await client.readHoldingRegisters(unit.modbusAddress, 1);
-                const newStatus = statusResponse.data[0] === 256 ? "運轉中" : "停止";
-                if (unit.status !== newStatus) {
-                    unit.status = newStatus;
-                }
-
-                // 2. ★ 修正：讀取現在溫度 (根據CSV配置，地址從22開始，每個設備+2)
-                const tempReadAddress = 22 + (unit.modbusAddress * 2);
-                const currentTempResponse = await client.readHoldingRegisters(tempReadAddress, 1);
-                unit.currentTemperature = currentTempResponse.data[0] / 10.0;
-
-                // 3. ★ 修正：讀取設定溫度 (使用相同的溫度地址)
-                const setTempResponse = await client.readHoldingRegisters(tempReadAddress, 1);
-                unit.setTemperature = setTempResponse.data[0] / 10.0;
-                
-                console.log(`[溫度監控] ${unit.locationName} (地址:${tempReadAddress}) - 現在溫度: ${unit.currentTemperature}°C, 設定溫度: ${unit.setTemperature}°C`);
-            }
-        }
-    } catch (err) {
-        console.error(`[Modbus Client] 讀取 Modbus 數據失敗: ${err.message}`);
-        client.close(() => {});
-    }
-}, 3000);
 
 // ★★★太陽能發電數據結構 ★★★
 let solarData = {
@@ -1243,19 +1182,19 @@ const defaultcctvData = {
 function loadCctvData() {
     try {
         if (fs.existsSync(CONFIG_PATH)) {
-            // 情況 A：檔案存在，直接讀取檔案內容
+            // 情況 A：檔案存在，嘗試讀取
             const rawData = fs.readFileSync(CONFIG_PATH);
             cctvData = JSON.parse(rawData);
             console.log('[Config] 成功從 cctv_config.json 載入攝影機設定。');
         } else {
-            // 情況 B：檔案不存在，使用程式碼中的 defaultcctvData 作為初始值
+            // 情況 B：檔案不存在 (第一次安裝)，建立預設檔
             fs.writeFileSync(CONFIG_PATH, JSON.stringify(defaultcctvData, null, 4));
-            cctvData = defaultcctvData; // 同步更新記憶體中的變數
-            console.log('[Config] cctv_config.json 不存在，已使用預設資料建立並載入。');
+            cctvData = defaultcctvData;
+            console.log('[Config] cctv_config.json 不存在，已建立預設檔案。');
         }
     } catch (error) {
-        console.error('[Config] 載入 cctv_config.json 失敗:', error);        
-        cctvData = defaultcctvData; 
+        // 情況 C：檔案存在但讀取失敗 (例如 JSON 格式錯誤)
+        console.error('[Config] 載入 cctv_config.json 失敗:', error);
     }
 }
 
@@ -1521,48 +1460,41 @@ function loadSettings() {
         if (fs.existsSync(SETTINGS_CONFIG_PATH)) {
             const rawData = fs.readFileSync(SETTINGS_CONFIG_PATH);
             appSettings = JSON.parse(rawData);
+            
+            // 如果設定檔是舊格式 (有 lineUserId 但沒有 lineUserIds)，則自動轉換
             if (appSettings.lineUserId && !appSettings.lineUserIds) {
-                appSettings.lineUserIds = [appSettings.lineUserId];
-                delete appSettings.lineUserId;
-                saveSettings();
+                console.log('[Config] 偵測到舊版設定檔，正在轉換為新格式...');
+                appSettings.lineUserIds = [appSettings.lineUserId]; // 將舊 ID 放入新陣列
+                delete appSettings.lineUserId; // 刪除舊的 key
+                saveSettings(); // 將轉換後的新格式存檔
             }            
-            if (appSettings.isCloudSyncEnabled === undefined) appSettings.isCloudSyncEnabled = false;
+
+            if (appSettings.isCloudSyncEnabled === undefined) {
+                appSettings.isCloudSyncEnabled = false;
+            }
 
             console.log('[Config] 成功從 settings_config.json 載入設定。');
         } else {
-            appSettings = {
+            // 使用新的 lineUserIds 陣列作為預設值
+            const defaultSettings = {
                 isNetworkEnabled: false,
                 lineAccessToken: '',
                 lineChannelSecret: '',
                 lineUserIds: [],
                 isCloudSyncEnabled: false
             };
-            console.log('[Config] 使用預設設定 (無本地檔案)。');
+            fs.writeFileSync(SETTINGS_CONFIG_PATH, JSON.stringify(defaultSettings, null, 4));
+            appSettings = defaultSettings;
+            console.log('[Config] settings_config.json 不存在，已建立預設檔案。');
         }
-
-        if (process.env.LINE_CHANNEL_ACCESS_TOKEN) {
-            appSettings.lineAccessToken = process.env.LINE_CHANNEL_ACCESS_TOKEN;
-        }
-        if (process.env.LINE_CHANNEL_SECRET) {
-            appSettings.lineChannelSecret = process.env.LINE_CHANNEL_SECRET;
-        }
-
-        if (process.env.LINE_USER_IDS) {
-            appSettings.lineUserIds = process.env.LINE_USER_IDS.split(',').map(id => id.trim());
-            console.log(`[Config] 從環境變數載入了 ${appSettings.lineUserIds.length} 個 LINE 使用者 ID`);
-        }        
-
-        if (process.env.SIMULATION_MODE === 'true') {
-             appSettings.isNetworkEnabled = false; 
-        }
-
     } catch (error) {
-        console.error('[Config] 載入設定失敗，使用環境變數救援:', error);
+        console.error('[Config] 載入 settings_config.json 失敗:', error);
+        // 錯誤時的預設值也更新
         appSettings = { 
             isNetworkEnabled: false, 
-            lineAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || '', 
-            lineChannelSecret: process.env.LINE_CHANNEL_SECRET || '', 
-            lineUserIds: process.env.LINE_USER_IDS ? process.env.LINE_USER_IDS.split(',') : [], 
+            lineAccessToken: '', 
+            lineChannelSecret: '', 
+            lineUserIds: [], 
             isCloudSyncEnabled: false 
         };
     }
@@ -1690,7 +1622,7 @@ async function saveRepairsData() {
 // ★★★ 從雲端同步報修資料的核心函式 ★★★
 async function syncRepairsFromCloud() {
     if (!appSettings.isCloudSyncEnabled) {
-        console.log('[Sync] 線上報修同步功能已關閉，略過本次同步。');
+        //console.log('[Sync] 線上報修同步功能已關閉，略過本次同步。');
         return; // 直接結束函式
     }
     try {
@@ -1741,6 +1673,13 @@ intercomDriver.start();
 barrierDriver.start(broadcast);
 theftpreventionDriver.start(broadcast);
 plumbingDriver.start(broadcast);
+accessDriver.start();
+acDriver.start((data) => {
+    broadcast({
+        type: 'AC_UPDATE',
+        data: data['1f'] || []
+    });
+});
 
 // --- 建立 API 端點 ---
 localApp.get('/api/status', (req, res) => {
@@ -1995,155 +1934,119 @@ localApp.post('/api/elevators/:id/manual-command', (req, res) => {
     console.log(`收到電梯 #${elevatorId} 的手動指令: ${command}, 當前樓層: ${elevator.currentFloor}`);
     res.status(200).json(elevator);
 });
+
+// ★★★ 空調控制系統 API ★★★
+// 切換模式
+localApp.post('/api/ac/:floor/:id/mode', async (req, res) => {
+    try {
+        const { floor, id } = req.params;
+        const result = await acDriver.setMode(floor, id, req.body.mode);
+        res.json(result);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// 開關機 (Status)
+localApp.post('/api/ac/:floor/:id/status', async (req, res) => {
+    try {
+        const { floor, id } = req.params;
+        const result = await acDriver.setPower(floor, id, req.body.status);
+        res.json(result);
+    } catch (err) {
+        res.status(500).json({ error: "Modbus 寫入失敗", details: err.message });
+    }
+});
+
+// 溫度調整
+localApp.post('/api/ac/:floor/:id/temperature', async (req, res) => {
+    try {
+        const { floor, id } = req.params;
+        const result = await acDriver.setTemperature(floor, id, req.body.temperature);
+        res.json(result);
+    } catch (err) {
+        res.status(500).json({ error: "Modbus 寫入失敗", details: err.message });
+    }
+});
+
+// 風速調整
+localApp.post('/api/ac/:floor/:id/fanspeed', async (req, res) => {
+    try {
+        const { floor, id } = req.params;
+        const result = await acDriver.setFanSpeed(floor, id, req.body.fanSpeed);
+        res.json(result);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// 風向調整
+localApp.post('/api/ac/:floor/:id/swing', async (req, res) => {
+    try {
+        const { floor, id } = req.params;
+        const { type, value } = req.body;
+        const result = await acDriver.setSwing(floor, id, type, value);
+        res.json(result);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+localApp.get('/api/ac/config', (req, res) => {
+    try {
+        console.log("【API Debug】前端請求 AC 設定...");
+        const config = acDriver.getConfig(); // 直接呼叫 getConfig
+
+        if (!config || !config.devices) {
+             console.error("❌ API Error: getConfig() 回傳 null");
+             return res.status(500).json({ error: "Config not found" });
+        }
+        
+        console.log(`✅ API 回傳設定: 包含 ${config.devices['1f'] ? config.devices['1f'].length : 0} 台設備`);
+        res.json(config);
+
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+localApp.post('/api/ac/config', async (req, res) => {
+    console.log("【API 觸發】收到前端儲存請求 (POST /api/ac/config)");
+
+    try {
+        const newSettings = req.body;
+        
+        // 1. 檢查前端傳來的資料是否正常
+        if (!newSettings || !newSettings.devices) {
+            console.error("❌ 拒絕存檔：前端傳來的資料格式錯誤或為空");
+            return res.status(400).json({ error: "Invalid configuration data" });
+        }
+
+        console.log(`📝 準備寫入設定... (設備數: ${newSettings.devices['1f'] ? newSettings.devices['1f'].length : 0})`);
+
+        // 2. 呼叫驅動程式更新 (會自動存檔並重連)
+        const result = await acDriver.setAcConfig(newSettings);
+        
+        // 3. 回傳成功訊息給前端
+        res.json(result);
+        
+        // 4. 廣播通知所有連線中的前端 (這是原本第二個區塊才有的功能)
+        if (typeof broadcast === 'function') {
+            broadcast({ type: 'SYSTEM_MESSAGE', message: '空調設定已更新，系統正在重啟連線...' });
+        }
+
+        console.log("✅ 設定更新完成並已廣播");
+
+    } catch (err) {
+        console.error("❌ 更新設定失敗:", err);
+        res.status(500).json({ error: "更新設定失敗", details: err.message });
+    }
+});
+
 // ★★★ 空調控制系統 API 端點 ★★★
 localApp.get('/api/ac/:floor', (req, res) => {
-    const { floor } = req.params;
-    const data = acData[floor] || [];
+    const data = acDriver.getDataByFloor(req.params.floor);
     res.json(data);
-});
-// ★★★ 接收「模式切換指令」的 POST API ★★★
-localApp.post('/api/ac/:floor/:id/mode', (req, res) => {
-    const { floor, id } = req.params;
-    const { mode } = req.body;
-    
-    if (!acData[floor]) {
-        return res.status(404).json({ error: `Floor ${floor} not found.` });
-    }
-
-    const unit = acData[floor].find(u => u.id === id);
-
-    if (unit) {
-        // 驗證傳入的模式是否有效
-        const validModes = ["送風", "冷氣", "暖氣", "除濕"];
-        if (validModes.includes(mode)) {
-            unit.mode = mode;
-            console.log(`空調模式已手動切換: ${floor} - ${unit.locationName} 的模式為 ${unit.mode}`);
-            res.status(200).json(unit);
-        } else {
-            res.status(400).json({ error: `Invalid mode: ${mode}` });
-        }
-    } else {
-        res.status(404).json({ error: `AC unit with id ${id} not found on floor ${floor}.` });
-    }
-});
-// ★★★ 空調開關機 API (寫入到 Modbus) ★★★
-localApp.post('/api/ac/:floor/:id/status', async (req, res) => {
-    const { floor, id } = req.params;
-    const { status } = req.body;
-    
-    const unit = acData[floor]?.find(u => u.id === id);
-    if (!unit) {
-        return res.status(404).json({ error: `AC unit not found.` });
-    }
-
-    const valueToWrite = (status === "運轉中") ? 256 : 0;
-
-    console.log(`--------------------------------------------------`);
-    console.log(`[API] 收到前端請求: ${unit.locationName} -> ${status}`);
-
-    try {
-        const isConnected = await ensureModbusConnection();
-        if (!isConnected) {
-            throw new Error("無法連接到 Modbus 設備。");
-        }
-
-        console.log(`[API -> Modbus] 正在發送寫入指令... (位址: ${unit.modbusAddress}, 值: ${valueToWrite})`);        
-        client.setID(modbusSlaveId);
-        await client.writeRegisters(unit.modbusAddress, [valueToWrite]);
-        console.log(`[API -> Modbus] 指令已成功發送！`);
-        
-        unit.status = status;
-        res.status(200).json(unit);
-
-    } catch (err) {
-        console.error("[API -> Modbus] 寫入 Modbus 失敗:", err.message);
-        res.status(500).json({ error: "寫入 Modbus 設備失敗", details: err.message });
-    } finally {
-        console.log(`--------------------------------------------------`);
-    }
-});
-// ★★★ 用來接收「溫度調整指令」的 POST API ★★★
-localApp.post('/api/ac/:floor/:id/temperature', async (req, res) => {
-    const { floor, id } = req.params;
-    const { temperature } = req.body;
-    
-    const unit = acData[floor]?.find(u => u.id === id);
-    if (!unit) {
-        return res.status(404).json({ error: `AC unit not found.` });
-    }
-
-    try {
-        const isConnected = await ensureModbusConnection();
-        if (!isConnected) {
-            throw new Error("無法連接到 Modbus 設備。");
-        }
-
-        // ★ 修正：根據CSV配置計算正確的溫度寫入地址
-        const tempWriteAddress = 22 + (unit.modbusAddress * 2);
-        const valueToWrite = Math.round(temperature * 10); // 乘以 10 轉換為整數
-        
-        console.log(`[溫度調整] ${unit.locationName} -> ${temperature}°C (地址: ${tempWriteAddress}, 值: ${valueToWrite})`);
-        
-        client.setID(modbusSlaveId);
-        await client.writeRegister(tempWriteAddress, valueToWrite);
-        console.log(`[溫度調整] ✓ 溫度設定指令已成功發送到設備！(地址: ${tempWriteAddress}, 值: ${valueToWrite})`);
-        
-        unit.setTemperature = temperature;
-        res.status(200).json(unit);
-
-    } catch (err) {
-        console.error("[API -> Modbus] 寫入溫度失敗:", err.message);
-        res.status(500).json({ error: "寫入 Modbus 設備失敗", details: err.message });
-    }
-});
-// ★★★ 用來接收「風速調整指令」的 POST API ★★★
-localApp.post('/api/ac/:floor/:id/fanspeed', (req, res) => {
-    const { floor, id } = req.params;
-    const { fanSpeed } = req.body;
-    
-    if (!acData[floor]) {
-        return res.status(404).json({ error: `Floor ${floor} not found.` });
-    }
-
-    const unit = acData[floor].find(u => u.id === id);
-
-    if (unit) {
-        const validSpeeds = ["自動", "弱", "中", "強"];
-        if (validSpeeds.includes(fanSpeed)) {
-            unit.fanSpeed = fanSpeed;
-            console.log(`空調風速已手動設定: ${floor} - ${unit.locationName} 的風速為 ${unit.fanSpeed}`);
-            res.status(200).json(unit);
-        } else {
-            res.status(400).json({ error: `Invalid fan speed: ${fanSpeed}` });
-        }
-    } else {
-        res.status(404).json({ error: `AC unit with id ${id} not found on floor ${floor}.` });
-    }
-});
-// ★★★ 用來接收「風向調整指令」的 POST API ★★★
-localApp.post('/api/ac/:floor/:id/swing', (req, res) => {
-    const { floor, id } = req.params;
-    const { type, value } = req.body;
-    
-    if (!acData[floor]) {
-        return res.status(404).json({ error: `Floor ${floor} not found.` });
-    }
-
-    const unit = acData[floor].find(u => u.id === id);
-
-    if (unit) {
-        if (type === 'vertical') {
-            unit.verticalSwing = value;
-        } else if (type === 'horizontal') {
-            unit.horizontalSwing = value;
-        } else {
-            return res.status(400).json({ error: `Invalid swing type: ${type}` });
-        }
-        console.log(`空調風向已手動設定: ${floor} - ${unit.locationName} 的 ${type} 風向為 ${value}`);
-        res.status(200).json(unit);
-    } else {
-        res.status(404).json({ error: `AC unit with id ${id} not found on floor ${floor}.` });
-    }
 });
 
 localApp.get('/api/solar', (req, res) => {
@@ -2274,34 +2177,93 @@ localApp.post('/api/cctv/update_stream', async (req, res) => {
 });
 
 localApp.get('/api/video-intercom/:floor', (req, res) => {
-    const { floor } = req.params;
-    const data = intercomDriver.getDataByFloor(floor);
-    res.json(data);
+    try {
+        const { floor } = req.params;
+        const data = intercomDriver.getDataByFloor(floor);
+        res.json(data);
+    } catch (error) {
+        //console.error(`[API] 取得對講機資料失敗 (${req.params.floor}):`, error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
 });
 
 // ★★★ 「影像對講系統」用的 API 端點 ★★★
 localApp.get('/api/video-intercom/stream/:id', (req, res) => {
-    const { id } = req.params;
-    const unit = intercomDriver.getUnitById(id);
+    try {
+        const { id } = req.params;
+        const unit = intercomDriver.getUnitById(id);
 
-    if (!unit || !unit.streamUrl) {
-        return res.status(404).json({ error: 'Intercom unit not found or does not have a stream URL' });
-    }    
-    startHlsStream(unit);
+        if (!unit || !unit.streamUrl) {
+            return res.status(404).json({ error: 'Intercom unit not found or does not have a stream URL' });
+        }    
 
-    // 等待 HLS 檔案生成（最多等 10 秒）
-    const checkInterval = setInterval(() => {
-        const m3u8Path = path.join(HLS_DIR, unit.id, 'stream.m3u8');
-        if (fs.existsSync(m3u8Path)) {
+        // 啟動 HLS 轉檔 
+        startHlsStream(unit);
+
+        // 等待 HLS 檔案生成
+        const checkInterval = setInterval(() => {
+            const m3u8Path = path.join(HLS_DIR, String(unit.id), 'stream.m3u8');
+            
+            if (fs.existsSync(m3u8Path)) {
+                clearInterval(checkInterval);
+                res.json({ hlsUrl: unit.hlsUrl }); 
+            }
+        }, 1000);
+        setTimeout(() => {
             clearInterval(checkInterval);
-            res.json({ hlsUrl: unit.hlsUrl });
-        }
-    }, 1000);
+            if (!res.headersSent) {
+                res.status(500).json({ error: 'HLS generation timeout' });
+            }
+        }, 10000);
 
-    setTimeout(() => {
-        clearInterval(checkInterval);
-        if (!res.headersSent) res.status(500).json({ error: 'HLS generation timeout' });
-    }, 10000);
+    } catch (error) {
+        console.error(`[API] 啟動串流失敗 (${req.params.id}):`, error);
+        if (!res.headersSent) res.status(500).json({ error: error.message });
+    }
+});
+
+// 解除緊急對講機呼叫
+localApp.post('/api/video-intercom/:id/resolve', async (req, res) => {
+    const id = req.params.id;
+    try {        
+        const success = await intercomDriver.resolveCall(id);
+        
+        console.log(`[API] Driver 解除結果: ${success}`); // ★ 建議加入這行除錯
+
+        if (success) {
+            res.json({ success: true });
+        } else {
+            
+            res.status(500).json({ success: false, message: 'Driver 回報解除失敗' });
+        }
+    } catch (error) {
+        console.error(`[API] 解除過程發生未預期錯誤:`, error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// 獲取設定
+localApp.get('/api/intercom/config/:id', (req, res) => {
+    try {
+        const { id } = req.params;
+        const config = intercomDriver.getIntercomConfig(id);
+        res.json(config);
+    } catch (error) {
+        //console.error(`[API] 讀取對講機設定失敗 (${req.params.id}):`, error.message);
+        res.status(404).json({ error: error.message });
+    }
+});
+
+// 儲存設定
+localApp.post('/api/intercom/config/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        await intercomDriver.setIntercomConfig(id, req.body);
+        res.json({ success: true });
+    } catch (error) {
+        //console.error(`[API] 儲存對講機設定失敗 (${req.params.id}):`, error);
+        res.status(500).json({ error: error.message });
+    }
 });
 
 // ★★★ 使用者登入 API 端點 ★★★
@@ -2678,47 +2640,6 @@ localApp.get('/api/elevator/stream/:id', (req, res) => {
     }, 10000);
 });
 
-// 解除緊急對講機呼叫
-localApp.post('/api/video-intercom/:id/resolve', async (req, res) => {
-    const id = req.params.id;
-    try {        
-        const success = await intercomDriver.resolveCall(id);
-        
-        console.log(`[API] Driver 解除結果: ${success}`); // ★ 建議加入這行除錯
-
-        if (success) {
-            res.json({ success: true });
-        } else {
-            
-            res.status(500).json({ success: false, message: 'Driver 回報解除失敗' });
-        }
-    } catch (error) {
-        console.error(`[API] 解除過程發生未預期錯誤:`, error);
-        res.status(500).json({ error: error.message });
-    }
-});
-
-// 獲取設定
-localApp.get('/api/intercom/config/:floor', (req, res) => {
-    try {
-        const config = intercomDriver.getIntercomConfig(req.params.floor);
-        res.json(config);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
-// 儲存設定
-localApp.post('/api/intercom/config/:floor', async (req, res) => {
-    try {
-        await intercomDriver.setIntercomConfig(req.params.floor, req.body);
-        res.json({ success: true });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: error.message });
-    }
-});
-
 // ★★★ 獲取「迴路群組」狀態 API (GET) ★★★
 localApp.get('/api/lighting/:floor', async (req, res) => { // ★ 改為 async
     try {
@@ -2866,9 +2787,49 @@ localApp.post('/api/theft/config/:id', async (req, res) => {
     }
 });
 
+// 取得該樓層所有門禁點狀態 
+localApp.get('/api/access-control/:floor', (req, res) => {
+    try {
+        const data = accessDriver.getDataByFloor(req.params.floor);
+        res.json(data);
+    } catch (error) {
+        console.error(`[API] 取得門禁資料失敗:`, error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+// 獲取 Modbus 門禁設定的 API 端點
+localApp.get('/api/access-control/config/:id', (req, res) => {
+    try {
+        const { id } = req.params; // 取得 '1f-A' 或 '1f-B'
+        const config = accessDriver.getAccessConfig(id);
+        
+        res.json(config);
+    } catch (error) {
+        console.error(`[API Error] /api/access-control/config/${req.params.id} (GET):`, error);
+        
+        const statusCode = error.message.includes('找不到') ? 404 : 500;
+        res.status(statusCode).json({ error: error.message });
+    }
+});
+
+// 更新 Modbus 門禁設定的 API 端點
+localApp.post('/api/access-control/config/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const newSetting = req.body;
+        await accessDriver.setAccessConfig(id, newSetting);
+        
+        res.json({ success: true, message: '設定已儲存' });
+    } catch (error) {
+        console.error(`[API Error] /api/access-control/config/${req.params.id} (POST):`, error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
 // 啟動伺服器
-server.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on port ${PORT}`);
+server.listen(PORT, () => {
+    console.log(`[HTTP + WS] 伺服器正在 http://localhost:${PORT} 運行`);
         
     setTimeout(() => {
         Object.values(cctvData).flat().forEach(startHlsStream);

@@ -53,10 +53,10 @@ async function ensureConnection(controllerConfig) {
         await controllerConfig.client.connectTCP(controllerConfig.ip, { port: controllerConfig.port });
         controllerConfig.client.setID(controllerConfig.slaveId);
         controllerConfig.client.setTimeout(5000); // 設定超時
-        console.log(`[Plumbing Driver] 已連接到 ${controllerConfig.ip}`);
+        //console.log(`[Plumbing Driver] 已連接到 ${controllerConfig.ip}`);
         return true;
     } catch (err) {
-        console.error(`[Plumbing Driver] 連接 ${controllerConfig.ip} 失敗:`, err.message);
+        //console.error(`[Plumbing Driver] 連接 ${controllerConfig.ip} 失敗:`, err.message);
         // 連線失敗時清空 client，確保下次重連
         if (controllerConfig.client) {
             controllerConfig.client.close(() => { });
