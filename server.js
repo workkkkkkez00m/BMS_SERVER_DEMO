@@ -2590,10 +2590,11 @@ localApp.post('/api/settings/toggle-sync', async (req, res) => {
 
 // 從您的設定檔中讀取 LINE Channel Access Token
 const lineMiddlewareConfig = {
-    channelSecret: appSettings.lineChannelSecret,
+    channelSecret: appSettings.lineChannelSecret || process.env.LINE_CHANNEL_SECRET || 'dummy-secret',
 };
 
 // ★ 在 middleware 中使用新的設定物件
+if (appSettings.lineChannelSecret || process.env.LINE_CHANNEL_SECRET) {
 localApp.post('/api/line-webhook', line.middleware(lineMiddlewareConfig), async (req, res) => {
     try {
         const events = req.body.events;
@@ -2611,6 +2612,13 @@ localApp.post('/api/line-webhook', line.middleware(lineMiddlewareConfig), async 
         res.status(500).send('Error');
     }
 });
+} else {
+    // 沒有設定時，提供一個空的端點避免錯誤
+    localApp.post('/api/line-webhook', (req, res) => {
+        console.log('[LINE] Channel Secret 未設定，LINE Webhook 已停用。');
+        res.status(200).send('LINE Webhook disabled - no channel secret configured');
+    });
+}
 
 // ★★★ 「電梯影像」專用的串流 API 端點 ★★★
 localApp.get('/api/elevator/stream/:id', (req, res) => {
