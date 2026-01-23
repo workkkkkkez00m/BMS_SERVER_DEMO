@@ -24,7 +24,7 @@ const accessDriver = require('./accessControlDriver');
 const acDriver = require('./acDriver'); 
 
 const localApp = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const HLS_DIR = path.join(os.tmpdir(), 'bms_hls_streams');
 
 const CONFIG_PATH = path.join(__dirname, 'cctv_config.json');
@@ -77,7 +77,7 @@ if (!fs.existsSync(HLS_DIR)) {
     fs.mkdirSync(HLS_DIR, { recursive: true });
 }
 
-const BACKEND_URL = 'http://localhost:3000';
+const BACKEND_URL = process.env.RENDER_EXTERNAL_URL || 'http://localhost:3000';
 
 localApp.use(cors());
 localApp.use(express.json());
@@ -2828,8 +2828,8 @@ localApp.post('/api/access-control/config/:id', async (req, res) => {
 });
 
 // 啟動伺服器
-server.listen(PORT, () => {
-    console.log(`[HTTP + WS] 伺服器正在 http://localhost:${PORT} 運行`);
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running on port ${PORT}`);
         
     setTimeout(() => {
         Object.values(cctvData).flat().forEach(startHlsStream);
